@@ -1,0 +1,35 @@
+# Site
+<!DOCTYPE HTML>
+ <html>
+  <head>
+
+	<style type="text/css">
+		body fieldset{
+			color:black;
+			padding:50px;
+   		}
+
+	</style>
+
+  </head>
+
+  <body>
+	
+	<form class="formulario" action="" method="post">
+	<fieldset>
+	   <legend>Login</legend>
+	   <label for="nome">Nome:</label>
+	   <input type="text" name="email">
+	   <label for="senha">Senha:</label>
+	   <input type="password" name="senha">
+	   <input type="hidden"name="hid" value="www.amandabeltoso.com.br"></br></br>
+           <label for="texto">Texto:</label></br>
+	   <textarea name="texto" rows="8" cols ="40">Digite um comentário</textarea>
+	   <button type="submit">Enviar</button>
+	</fieldset>	
+	</form>
+	 
+
+  </body>
+
+ </html>
