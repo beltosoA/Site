@@ -1,0 +1,213 @@
+# Site
+header{
+background-image: url(fundo5.jpg);
+width: 99%;
+height: 300px;
+padding: 5px;
+}
+header h1{
+  color:#A63F46;
+  font-family: palatino;
+  font-weight: bolder;
+  width: 400px;
+  position: relative;
+  left:60%;
+  top: 8px;
+}
+
+header h2{
+  color:#A63F46;
+  font-family: palatino;
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  top: -50px;
+}
+header img{
+  position: absolute;
+  left: 1100px;
+  top: 15px;
+  width: 16%;
+  border: thin solid;
+  border-color:#800000;
+  border-style: dashed;
+  padding: 5px;
+  margin: 50px 10px 10px 0;
+}
+
+#menu ul{
+  padding: 0px;
+  margin: 0px;
+  background-color: #CC7E8C;
+  list-style: none;
+}
+
+#menu ul li{
+  display: inline;
+
+}
+
+#menu ul li a{
+  padding: 18px 11px;
+  display: inline-block;
+  background-color: #CC7E8C;
+  color: #FFFFFF;
+  border-bottom: 3px solid #CC7E8C;
+  text-decoration: none;
+  width:18%;
+
+
+}
+#menu ul li a:hover{
+  background-color: #A63F46;
+  color:  #FFFFFF;
+  border-bottom: 3px solid #800000;
+}
+#objetivos{
+  float: right;
+  width: 96%;
+  height: 260px;
+  padding:50px;
+  border-style:inherit;
+  border-color: #800000;
+  background-color: #efefef;
+  margin: 35px 0px 10px;
+}
+#objetivos h1{
+  float:none;
+  color: #A63F46;
+  height: 1px;
+  position: relative;
+  top:-50px;
+}
+
+#objetivos #crescer{
+  position: absolute;
+  padding: 3px;
+  top: 540px;
+  left: 5px;
+  width: 19%;
+  border-style: double;
+
+}
+#objetivos #texto1{
+  position: absolute;
+  width: auto;
+  left: 100px;
+  font-family: "times";
+  font-size: 17px;
+}
+#objetivos  #problemas{
+  position: absolute;
+  padding: 4px;
+  top: 540px;
+  left: 300px;
+  width: 19%;
+  border-style: double;
+
+}
+
+#objetivos #texto2{
+  position: absolute;
+  top: 510px;
+  width: auto;
+  left: 325px;
+  font-family: "times";
+  font-size: 17px;
+}
+#objetivos #passar{
+  position: absolute;
+  padding: 2px;
+  top: 540px;
+  left: 600px;
+  width: 175px;
+  border-style: double;
+}
+#objetivos #texto3{
+  position: absolute;
+  top: 510px;
+  width:auto;
+  left: 592px;
+  font-family: "times";
+  font-size: 17px;
+}
+#objetivos #desenhar{
+  position: absolute;
+  padding: 2px;
+  top: 540px;
+  left: 820px;
+  width: 147px;
+  border-style: double;
+}
+#objetivos #texto4{
+  position: absolute;
+  top: 510px;
+  left: 820px;
+  font-family: "times";
+  font-size: 17px;
+}
+#conhecimentos{
+  float: right;
+  width: 96%;
+  height: 200px;
+  padding: 50px;
+  border-style:inherit;
+  border-color: #800000;
+  color: #A63F46;
+  background-color: #efefef;
+  margin: 35px 0px 10px;
+}
+
+#conhecimentos h1{
+  float:none;
+  color: #A63F46;
+  height: 1px;
+  position: relative;
+  top:-50px;
+
+}
+
+#conhecimentos ul{
+  margin: 0px;
+  list-style:circle;
+  display:grid;
+  color: #C68C8C;
+}
+#hobby{
+  float: right;
+  width: 96%;
+  height: 200px;
+  padding: 50px;
+  border-style:inherit;
+  border-color: #800000;
+  color: #A63F46;
+  background-color: #efefef;
+  margin: 35px 0px 10px;
+}
+#hobby ul{
+  margin: 0px;
+  list-style:circle;
+  display:grid;
+  color: #C68C8C;
+
+}
+
+#contatos{
+  float: right;
+  width: 96%;
+  height: 200px;
+  padding: 50px;
+  border-style:inherit;
+  border-color: #800000;
+  color: #A63F46;
+  background-color: #efefef;
+  margin: 35px 0px 10px;
+}
+
+#contatos ul{
+  margin: 0px;
+  list-style:circle;
+  display:grid;
+  color: #C68C8C;
+}
+
