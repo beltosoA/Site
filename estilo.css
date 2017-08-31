@@ -1,18 +1,18 @@
 # Site
 header{
-background-image: url(fundo5.jpg);
-width: 99%;
+background-image: url(fundo17.jpg);
+width:100%;
 height: 300px;
-padding: 5px;
+padding: 10px;
 }
 header h1{
-  color:#A63F46;
+  color: #FFFFFF;
   font-family: palatino;
-  font-weight: bolder;
+  font-weight: bold;
   width: 400px;
   position: relative;
-  left:60%;
-  top: 8px;
+  left:17%;
+  top: 2px;
 }
 
 header h2{
@@ -25,7 +25,7 @@ header h2{
 }
 header img{
   position: absolute;
-  left: 1100px;
+  left: 550px;
   top: 15px;
   width: 16%;
   border: thin solid;
@@ -38,7 +38,7 @@ header img{
 #menu ul{
   padding: 0px;
   margin: 0px;
-  background-color: #CC7E8C;
+  background-color: black;
   list-style: none;
 }
 
@@ -47,21 +47,22 @@ header img{
 
 }
 
+
 #menu ul li a{
   padding: 18px 11px;
   display: inline-block;
-  background-color: #CC7E8C;
+  background-color:   black;
   color: #FFFFFF;
-  border-bottom: 3px solid #CC7E8C;
+  border-bottom: 3px solid   black;
   text-decoration: none;
   width:18%;
 
 
 }
 #menu ul li a:hover{
-  background-color: #A63F46;
+  background-color:  #595959;
   color:  #FFFFFF;
-  border-bottom: 3px solid #800000;
+  border-bottom: 3px solid #80004C;
 }
 #objetivos{
   float: right;
@@ -70,15 +71,16 @@ header img{
   padding:50px;
   border-style:inherit;
   border-color: #800000;
-  background-color: #efefef;
+  background-color:#80004C;
   margin: 35px 0px 10px;
 }
 #objetivos h1{
   float:none;
-  color: #A63F46;
+  color: #FFFFFF;
   height: 1px;
   position: relative;
   top:-50px;
+
 }
 
 #objetivos #crescer{
@@ -149,30 +151,93 @@ header img{
 #conhecimentos{
   float: right;
   width: 96%;
-  height: 200px;
+  height: 500px;
   padding: 50px;
   border-style:inherit;
   border-color: #800000;
   color: #A63F46;
-  background-color: #efefef;
+  background-color: #008AB8;
   margin: 35px 0px 10px;
 }
 
 #conhecimentos h1{
   float:none;
-  color: #A63F46;
+  color: #ffff;
   height: 1px;
   position: relative;
   top:-50px;
 
 }
-
-#conhecimentos ul{
-  margin: 0px;
-  list-style:circle;
-  display:grid;
-  color: #C68C8C;
+#conhecimentos .estilizacao{
+  display: inline-table;
+  width:1500px;
+  list-style: none;
 }
+
+#conhecimentos .estilizacao li{
+  position: relative;
+  display: inline-table;
+  float: left;
+  width: 250px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+#conhecimentos .estilizacao li img{
+  width: 250px;
+  height: 250px;
+  display: inline-table;
+  z-index: 999;
+  position: absolute;
+  transition: 5s;
+  border-style: groove;
+  border-color: #3F5D7D;
+}
+#conhecimentos .conteudo{
+  display: inline-table;
+  width: 255px;
+  height: 80px;
+  background-color:#3F5D7D;
+  overflow: hidden;
+  margin-top: 255px;
+}
+#conhecimentos .estilizacao li:hover img{
+  margin-top: -80px;
+}
+
+#conhecimentos .estilizacao p{
+  color:#ffff;
+  position: relative;
+  float: left;
+  width: 200;
+  margin: 10px;
+  margin-bottom: 0;
+  font-family: "late", sans-serif;
+}
+
+#conhecimentos .estilizacao p a{
+  text-decoration: none;
+  color: #ffff;
+}
+#conhecimentos .estilizacao .n-mais{
+  display: inline-table;
+  text-decoration:none;
+  color:#ffff:
+  float:right;
+  padding: 5px;
+  background: #660000;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#conhecimentos .estilizacao .nome-seccao{
+  font-size: 16px;
+}
+
+#conhecimentos .estilizacao .descricao{
+  font-size: 12px;
+}
+
 #hobby{
   float: right;
   width: 96%;
@@ -180,16 +245,26 @@ header img{
   padding: 50px;
   border-style:inherit;
   border-color: #800000;
-  color: #A63F46;
-  background-color: #efefef;
+  color: #ffff;
+  background-color: #CC0066;
   margin: 35px 0px 10px;
+  text-decoration: none;
 }
-#hobby ul{
-  margin: 0px;
+#hobby ul li{
+  position: relative;
+  margin: 10px;
   list-style:circle;
-  display:grid;
-  color: #C68C8C;
-
+  display:inline-block;
+  color: #fff;
+  font-size: 25px;
+  width: 300px;
+  float: left;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+  left: 250px;
+  background: black;
+  text-decoration: none;
 }
 
 #contatos{
@@ -198,16 +273,27 @@ header img{
   height: 200px;
   padding: 50px;
   border-style:inherit;
-  border-color: #800000;
-  color: #A63F46;
-  background-color: #efefef;
+  border-color: #80000;
+  color: #fff;
+  background-color: #333333;
   margin: 35px 0px 10px;
+  text-decoration: none;
 }
 
-#contatos ul{
-  margin: 0px;
+#contatos ul li{
+  margin: 5px;
   list-style:circle;
-  display:grid;
-  color: #C68C8C;
+  display:inline-table;
+  color: #fff;
+  width: 300px;
+  float: left;
+  padding: 40px;
+  padding: 40px;
+  left: 250px;
+  background: #999999;
+  text-decoration: none;
 }
-
+#contatos ul li a{
+  text-decoration: none;
+  color: #fff;
+}
